@@ -1,0 +1,369 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: vantevo-analytics\n"
+"POT-Creation-Date: 2023-01-19 15:17+0100\n"
+"PO-Revision-Date: 2023-01-19 15:23+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: container.php:13
+msgid "Settings Vantevo Analytics"
+msgstr "Impostazioni Vantevo Analytics"
+
+#: container.php:15
+msgid "Dashboard"
+msgstr "Bacheca"
+
+#: container.php:16 settings.php:28
+msgid "Documentation"
+msgstr "Guida"
+
+#: container.php:17
+msgid "Contacts"
+msgstr "Contattaci"
+
+#: container.php:36
+msgid "404 - Page Not Found"
+msgstr "404: la pagina non è stata trovata"
+
+#: container.php:37
+#, php-format
+msgid ""
+"This function will automatically send an event of type %s404%s in which it "
+"will save the %surl%s of the page. With this function you will be able to "
+"keep track of all 404 pages in a very easy way."
+msgstr ""
+"Questa funzione invierà in modo automatico un evento di tipo %s404%s in cui "
+"verrà salvato l’%surl%s della pagina. Con questa funzione potrai tenere "
+"traccia di tutte le pagine 404 in modo molto semplice."
+
+#: container.php:38
+msgid ""
+"Caution: If you use the 404 error page tracking feature, your events will be "
+"counted as billable monthly page views."
+msgstr ""
+"Attenzione: se utilizzi la funzionalità di monitoraggio delle pagine di "
+"errore 404, gli eventi verranno conteggiati come visualizzazioni di pagina "
+"mensili e quindi fatturabili."
+
+#: container.php:45 container.php:67 container.php:99 container.php:121
+#: container.php:156 container.php:176 container.php:346
+msgid "YES"
+msgstr "SÌ"
+
+#: container.php:57
+msgid "Outbound links"
+msgstr "Link in uscita"
+
+#: container.php:58
+#, php-format
+msgid ""
+"With this feature you can monitor all outbound links from your site. For "
+"example, every time a user clicks on an outgoing link, the Vantevo script "
+"will send an %sOutbound Link%s event in which it will save the %surl%s."
+msgstr ""
+"Con questa funzione è possibile monitorare tutti i link in uscita dal sito. "
+"Ad esempio, ogni volta che un utente fa clic su un link in uscita, lo script "
+"Vantevo invierà un evento %sOutbound Link%s in cui salverà l’%surl%s."
+
+#: container.php:59 container.php:82
+msgid "For more information read ours"
+msgstr "Per maggiori informazioni leggi la nostra"
+
+#: container.php:59 container.php:82
+msgid "documentation"
+msgstr "guida"
+
+#: container.php:60
+msgid ""
+"Caution: If you use outbound link tracking, your events will be counted as "
+"billable monthly page views.."
+msgstr ""
+"Attenzione: se utilizzi la funzione di monitoraggio dei link in uscita, gli "
+"eventi verranno conteggiati come visualizzazioni di pagina mensili e quindi "
+"fatturabili."
+
+#: container.php:72 container.php:104 container.php:126 container.php:161
+#: container.php:181 container.php:351
+msgid "NO"
+msgstr "NO"
+
+#: container.php:79
+msgid "Automatic monitoring of file downloads"
+msgstr "Monitoraggio automatico dei download di file"
+
+#: container.php:80
+msgid ""
+"Enter a custom list of file extensions for the vantevo script to track and "
+"dispatch an event of type File Download."
+msgstr ""
+"Inserisci un elenco personalizzato di estensioni di file di cui lo script "
+"deve tenere traccia e inviare un evento di tipo File Download."
+
+#: container.php:81
+#, php-format
+msgid "%sEsempio%s: zip,rar,pdf,xlsx,mp4,avi"
+msgstr "%sEsempio%s: zip,rar,pdf,xlsx,mp4,avi"
+
+#: container.php:87
+msgid "zip,rar,pdf,xlsx,mp4,avi"
+msgstr "zip,rar,pdf,xlsx,mp4,avi"
+
+#: container.php:92
+msgid "Except the URL do you want to track the file extension as well?"
+msgstr "Oltre all’URL, vuoi tenere traccia anche dell’estensione del file?"
+
+#: container.php:112
+msgid "Manual Pageview"
+msgstr "Manual Pageview"
+
+#: container.php:113
+msgid ""
+"If this feature is enabled, the Vantevo script will not automatically send "
+"the site analytics but you will need to add the code on each page to submit "
+"the analytics."
+msgstr ""
+"Se questa funzionalità è abilitata, lo script Vantevo non invierà "
+"automaticamente i dati del sito, ma sarà necessario aggiungere il codice in "
+"ogni pagina per inviare i dati."
+
+#: container.php:114
+#, php-format
+msgid ""
+"The %smanual pageview%s function also allows you to specify custom locations "
+"to edit URLs with identifiers, read more on %smanual pageview%s."
+msgstr ""
+"La funzione %smanual pageview%s consente anche di specificare posizioni "
+"personalizzate per modificare gli URL con identificatori, leggi tutto su "
+"%smanual pageview%s."
+
+#: container.php:133
+msgid "Domain"
+msgstr "Dominio"
+
+#: container.php:134
+#, php-format
+msgid ""
+"This parameter allows you to save the statistics of this site on a different "
+"domain. The domain must be saved in your Vantevo Analytics account. Remember "
+"to enable this domain in the domain settings in the \"Information -> "
+"Authorized Domains\" section. Read more about %sauthorized domains%s."
+msgstr ""
+"Questo parametro consente di salvare le statistiche di questo sito su un "
+"altro dominio. Il dominio deve essere salvato nel tuo account di Vantevo "
+"Analytics. Ricordati di abilitare questo dominio nelle impostazioni del "
+"dominio nella sezione “Informazioni -> Domini Autorizzati”. Maggiori "
+"informazioni su %sdomini autorizzati%s."
+
+#: container.php:139
+msgid "example.com"
+msgstr "example.com"
+
+#: container.php:146 container.php:336
+msgid "Development mode"
+msgstr "Modalità di sviluppo"
+
+#: container.php:147 container.php:337
+msgid ""
+"This function is for development mode, it simulates a request on your "
+"website without submitting it. You can see the request data in the browser "
+"console."
+msgstr ""
+"Questa funzione serve nella modalità di sviluppo, simula una richiesta sul "
+"tuo sito web senza inviarla. Puoi vedere i dati della richiesta nella "
+"console del browser."
+
+#: container.php:168
+msgid "Hash mode"
+msgstr "Hash mode"
+
+#: container.php:169
+msgid "This parameter allows tracking based on URL hash changes."
+msgstr ""
+"Questo parametro consente il monitoraggio in base alle modifiche dell’hash "
+"dell’URL."
+
+#: container.php:189
+msgid "Enable scroll tracking"
+msgstr "Monitoraggio dello scorrimento delle pagine"
+
+#: container.php:190
+msgid ""
+"Send an event whenever a user performs page scrolling for a specific "
+"location.The name of the event saved on Vantevo will be <strong>Scroll "
+"Tracking</strong>."
+msgstr ""
+"Invia un evento ogni volta che un utente esegue lo scorrimento della pagina "
+"per una posizione specifica. Il nome dell’evento salvato su Vantevo sarà "
+"<strong>Scroll Tracking</strong>."
+
+#: container.php:197
+msgid "25%"
+msgstr "25%"
+
+#: container.php:202
+msgid "50%"
+msgstr "50%"
+
+#: container.php:207
+msgid "75%"
+msgstr "75%"
+
+#: container.php:212
+msgid "100%"
+msgstr "100%"
+
+#: container.php:220 container.php:358
+msgid "Source script"
+msgstr "Sorgente script"
+
+#: container.php:221 container.php:359
+msgid ""
+"To not use our link to download the vantevo script, you can put the link to "
+"your cdn or download the script locally on your server."
+msgstr ""
+"Per non utilizzare il nostro link per scaricare lo script di vantevo, puoi "
+"inserire il link al tuo cdn o scaricare lo script localmente sul tuo server."
+
+#: container.php:239
+msgid "Exclude one or more pages from the statistics"
+msgstr "Escludi una o più pagine dalle statistiche"
+
+#: container.php:240
+#, php-format
+msgid ""
+"Enter the path of the page you want to exclude from the statistics, for more "
+"information on using this function, consult our %sguide%s."
+msgstr ""
+"Inserisci il percorso della pagina che vuoi escludere dalle statistiche, per "
+"ulteriori informazioni sull’utilizzo di questa funzione, consulta la nostra "
+"%sguida%s."
+
+#: container.php:269
+msgid "Add pathname"
+msgstr "Aggiungi pathname"
+
+#: container.php:270
+msgid "/page"
+msgstr "/pagina"
+
+#: container.php:307
+msgid "Activate ecommerce monitoring"
+msgstr "Attiva il monitoraggio dell’e-commerce"
+
+#: container.php:318
+msgid "Select an item you want to use as a Brand."
+msgstr "Selezionare un elemento che si desidera utilizzare come brand."
+
+#: container.php:319
+msgid ""
+"<strong>Category</strong> - the first category of the product will be "
+"considered as the brand"
+msgstr ""
+"<strong>Categoria</strong> - la prima categoria del prodotto sarà "
+"considerata un brand"
+
+#: container.php:320
+msgid ""
+"<strong>Tag</strong> - the first tag of the product will be considered as a "
+"brand"
+msgstr ""
+"<strong>Tag</strong> - il primo tag del prodotto sarà considerato un brand"
+
+#: container.php:322
+msgid "Select element"
+msgstr "Seleziona un elemento"
+
+#: container.php:325
+msgid "Products category"
+msgstr "Categoria prodotti"
+
+#: container.php:328
+msgid "Products tags"
+msgstr "Tag prodotti"
+
+#: container.php:376
+msgid "It appears that WooCommerce is not active."
+msgstr "Sembra che WooCommerce non è attivo."
+
+#: container.php:379
+msgid "It appears that WooCommerce is not installed."
+msgstr "Sembra che WooCommerce non sia installato."
+
+#: settings.php:27
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: settings.php:59
+msgid "Are you sure you want to delete the path?"
+msgstr "Sei sicuro di voler eliminare il percorso?"
+
+#: settings.php:60
+msgid "Error: unable to save data."
+msgstr "Errore: impossibile salvare dati."
+
+#~ msgid ""
+#~ "Enter the link to the javascript script Vantevo. With this function you "
+#~ "can download and use the `vantevo.js` file locally, instead of using the "
+#~ "file externally."
+#~ msgstr ""
+#~ "Invece di utilizzare il nostro link per scaricare lo script di vantevo, "
+#~ "puoi inserire il link al tuo cdn o scaricare lo script localmente sul tuo "
+#~ "server."
+
+#~ msgid ""
+#~ "Enter the link to the javascript script Vantevo. With this function you "
+#~ "can download and use the `vantevo-ecommerce.js` file locally, instead of "
+#~ "using the file externally."
+#~ msgstr ""
+#~ "Inserisci il link dello script javascript vantevo. Con questa funzione è "
+#~ "possibile scaricare e utilizzare il file `vantevo-ecommerce.js` in "
+#~ "locale, invece di utilizzare il file esternamente."
+
+#~ msgid "Enter the link to the javascript script Vantevo."
+#~ msgstr ""
+#~ "Inserisci il link dello script javascript vantevo. Con questa funzione è "
+#~ "possibile scaricare e utilizzare il file `vantevo.js` in locale, invece "
+#~ "di utilizzare il file esternamente."
+
+#~ msgid "Select a tag for the product brand"
+#~ msgstr "Seleziona un tag per il brand del prodotto"
+
+#~ msgid "Enter the link to the javascript script Vantevo"
+#~ msgstr "Inserisci il link dello script javascript vantevo"
+
+#~ msgid "Save"
+#~ msgstr "Salva"
+
+#~ msgid ""
+#~ "Send the statistics of this site to another domain entered on vantevo."
+#~ msgstr ""
+#~ "Invia le statistiche di questo sito ad un altro dominio inserito su "
+#~ "vantevo."
+
+#, php-format
+#~ msgid ""
+#~ "Enter a custom list of file extensions for the vantevo script to monitor "
+#~ "and dispatch a %sFile Download %s event."
+#~ msgstr ""
+#~ "Immettere un elenco personalizzato di estensioni di file per lo script "
+#~ "vantevo per monitorare e inviare un evento di tipo %sFile Download%s."
+
+#~ msgid "prove vanevo"
+#~ msgstr "Prova vantavo"
+
+#, php-format
+#~ msgid "of type %sFile Download%s."
+#~ msgstr "Tipe %sFile Download%s."
+
+#~ msgid "Docs"
+#~ msgstr "Guida"
